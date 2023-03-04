@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    background:#000;
+    color:#fff;
+    height:100vh;
+    width:100%;
+    position: relative;
+}
+nav{
+    display:flex;
+    align-items:center;
+    padding:20px 8%;
+}
+nav .menu{
+    width:25px;
+    margin-right: 10px;
+    cursor:pointer;
+}
+nav h1 span{
+    color:green;
+}
+nav ul{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    display:inline;
+    list-style: none;
+    margin:0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+nav ul li a:hover{
+    color: rgb(72, 209, 72);
+}
+
+button{
+    background: #efefef;
+    height:30px;
+    width:60px;
+    border: 0;
+    border-radius:25px;
+    outline: 0;
+    cursor: pointer;
+}
+button span{
+    display:block;
+    background:silver;
+    height:25px;
+    width:25px;
+    border-radius:20px;
+    margin-left:2px ;
+    transition: background 0.5s,margin-left 0.5s; 
+}
+#la{
+    position: absolute;
+    top:-25px;
+    left:25%;
+    width:200px;
+}
+.lamp{
+    width:100%;
+}
+.light{
+    position:relative;
+    right:285px;
+    width:750px;
+    top:-7px;
+    margin-right:12px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.text{
+    width:600px;
+    margin-top:10%;
+    margin-left: 50%;
+}
+h2{
+    font-size:50px;
+    font-weight: 400;
+    margin-bottom:5px;
+}
+.text a{
+        text-decoration: none;
+        background: yellow;
+        padding:10px 30px;
+        display: inline-block;
+        color:black;
+        font-size:15px ;
+        margin-top:20px;
+        border-radius:30px;
+}
+.text a:hover{
+    background:rgb(81, 230, 81);
+    transition: background 0.2s;
+}
+.active{
+    background: rgb(68, 189, 68);
+}
+.active span{
+    margin-left:52%;
+}
+.on{
+    opacity:1;
+}
